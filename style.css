@@ -8,7 +8,7 @@ body, html {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Playfair Display', monospace;
+  font-family: 'Playfair Display', serif;
 }
 
 .header-image {
@@ -31,12 +31,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 div.text {
-  width: 250px;
+  width: 500px;
   /* height: fit-content; */
   word-wrap: break-word;
   overflow: auto;
   text-align: center;
-  border-width: 7px;
+  border-width: 6px;
   border-style: dotted;
   border-color: white;
   float: center;
@@ -46,6 +46,38 @@ div.text {
 
 div#text {
   background-color: #9ECD5F;
+}
+
+/*photo alignments*/
+div.photos {
+}
+
+div#photo1 {
+  float: left;
+}
+
+div#photo02 {
+  float: center;
+}
+
+div#photo03 {
+  float: right;
+}
+
+div#photo4 {
+  float: left;
+}
+
+div#photo5 {
+  float: center;
+}
+
+div#photo6 {
+  float: right;
+}
+
+div#photo7 {
+  float: center;
 }
 
 div.alignments {
@@ -71,7 +103,7 @@ div.alignments {
   float: left;
   display: block;
   color: #FFFFFF; /*navbar text color*/
-  font-family: 'Playfair Display', monospace;
+  font-family: 'Playfair Display', serif;
     /* font-family rule copied from Google Fonts */
   text-align: center;
   padding: 17px;
