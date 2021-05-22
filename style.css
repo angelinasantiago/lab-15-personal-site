@@ -54,19 +54,19 @@ div.photos {
 
 div#photo1 {
   float: left;
-  margin: 10px;
+  margin: 7px;
   padding: 6px;
 }
 
 div#photo02 {
-  float: center;
-  margin: 12px;
+  float: right;
+  margin: 7px;
   padding: 6px;
 }
 
 div#photo03 {
   float: right;
-  margin: 12px;
+  margin: 7px;
   padding: 6px;
 }
 
@@ -111,10 +111,11 @@ div.alignments {
 #navbar {
   overflow: hidden;
   background-color: #121212;
+  font-size: 20px;
 }
 
 #navbar a {
-  float: left;
+  float: center;
   display: block;
   color: #FFFFFF; /*navbar text color*/
   font-family: 'Playfair Display', serif;
@@ -123,6 +124,14 @@ div.alignments {
   padding: 17px;
   text-decoration: none;
 }
+
+/*div#navbar {
+  text-align: center;
+}
+div#navbar ul{
+  display: inline-block;
+}
+/* code to center the text on the navbar from stackoverflow url: https://stackoverflow.com/questions/5995405/how-to-center-a-navigation-bar-with-css-or-html */
 
 #navbar a:hover {
   color: white;
@@ -134,7 +143,6 @@ div.alignments {
   top: 0;
   width: 100%;
 }
-
 
 .stickynavbar + .content {
   padding-top: 60px;
