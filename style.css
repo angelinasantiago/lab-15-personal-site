@@ -2,7 +2,7 @@
 body, html {
     height: 100%;
     font-family: 'Roboto', sans-serif;
-    font weight: 200;
+    font weight: 500;
     color: black;
     background-color: #000000;
 }
@@ -27,6 +27,7 @@ h1, h2, h3, h4, h5, h6 {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  font-size: 25px;
   color: white;
 }
 
@@ -54,45 +55,46 @@ div.photos {
 
 div#photo1 {
   float: left;
-  margin: 7px;
+  margin: 12px;
   padding: 6px;
 }
 
-div#photo02 {
-  float: right;
-  margin: 7px;
+div#photo2 {
+  float: left;
+  margin: 12px;
   padding: 6px;
 }
 
-div#photo03 {
+div#photo3 {
   float: right;
-  margin: 7px;
+  margin: 12px;
   padding: 6px;
 }
 
 div#photo4 {
   float: center;
-  margin: 12px;
-  padding: 6px;
+  margin: 40px;
+  padding: 3px;
 }
 
 div#photo5 {
-  float: center;
-  margin: 12px;
+  float: right;
+  margin: 10px;
   padding: 6px;
 }
 
 div#photo6 {
   float: right;
-  margin: 4px;
+  margin: 12px;
   padding: 6px;
 }
 
 div#photo7 {
   float: left;
-  margin: 12px;
+  margin: 10px;
   padding: 6px;
 }
+
 
 div.alignments {
   width: 250px;
@@ -111,11 +113,14 @@ div.alignments {
 #navbar {
   overflow: hidden;
   background-color: #121212;
+  display: flex;
+  justify-content: center;
   font-size: 20px;
 }
+/* code to center the text on the navbar from stackoverflow url: https://stackoverflow.com/questions/5995405/how-to-center-a-navigation-bar-with-css-or-html url: https://stackoverflow.com/questions/56341009/flex-navbar-loses-centering*/
 
 #navbar a {
-  float: center;
+  float: left;
   display: block;
   color: #FFFFFF; /*navbar text color*/
   font-family: 'Playfair Display', serif;
@@ -124,14 +129,6 @@ div.alignments {
   padding: 17px;
   text-decoration: none;
 }
-
-/*div#navbar {
-  text-align: center;
-}
-div#navbar ul{
-  display: inline-block;
-}
-/* code to center the text on the navbar from stackoverflow url: https://stackoverflow.com/questions/5995405/how-to-center-a-navigation-bar-with-css-or-html */
 
 #navbar a:hover {
   color: white;
