@@ -84,7 +84,7 @@ div#photo1 {
 
 div#photo2 {
   float: right;
-  margin-right: 215px;
+  margin-right: 260px;
   padding: 6px;
 }
 
@@ -109,7 +109,7 @@ div#photo5 {
 div#photo6 { /*confetti.jpg*/
   float: right;
   margin-right: 80px;
-  padding: 6px;
+  padding: 65px;
 }
 
 div#photo7 {
@@ -131,6 +131,13 @@ div.alignments {
   float: center;
   margin: 12px;
   padding: 6px;
+}
+
+div.alignments2 {
+  margin-right: auto;
+  margin-left: auto;
+  float: center;
+
 }
 
 #navbar {
