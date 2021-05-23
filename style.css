@@ -40,10 +40,12 @@ div.text {
   border-width: 6px;
   border-style: dotted;
   border-color: white;
-  float: center;
-  margin: 12px;
-  padding: 6px;
+  margin-top: 70px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 12px;
 }
+/* centering text box extra code from url: https://www.w3.org/Style/Examples/007/center.en.html*/
 
 div#text {
   background-color: #9ECD5F;
@@ -55,43 +57,43 @@ div.photos {
 
 div#photo1 {
   float: left;
-  margin: 12px;
+  margin: auto;
   padding: 6px;
 }
 
 div#photo2 {
-  float: left;
-  margin: 12px;
+  float: right;
+  margin-right: 215px;
   padding: 6px;
 }
 
 div#photo3 {
   float: right;
-  margin: 12px;
+  margin: auto;
   padding: 6px;
 }
 
 div#photo4 {
-  float: center;
-  margin: 40px;
-  padding: 3px;
+  float: right;
+  margin: auto;
+  padding: 6px;
 }
 
 div#photo5 {
   float: right;
-  margin: 10px;
+  margin-right: 80px;
   padding: 6px;
 }
 
-div#photo6 {
+div#photo6 { /*confetti.jpg*/
   float: right;
-  margin: 12px;
+  margin: auto;
   padding: 6px;
 }
 
 div#photo7 {
   float: left;
-  margin: 10px;
+  margin: auto;
   padding: 6px;
 }
 
